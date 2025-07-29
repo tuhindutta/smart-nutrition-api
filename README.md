@@ -1,7 +1,9 @@
 # 🧠 Smart Nutrition API
 
 ## 📌 Overview
-Extract product names from image uploads and retrieve structured, health-focused nutritional information using Google Search + LLM (Groq API) pipeline.
+is an intelligent OCR and LLM-powered API that automates the extraction of nutritional data for branded, packaged food products using just an image. The system leverages Optical Character Recognition (OCR), web search, and Large Language Models (LLMs) to infer and structure health-related information in JSON format, helping health-conscious users understand what they consume and developers building nutrition-focused applications.
+<br>
+This project is designed purely as an API layer and can be seamlessly integrated into any custom frontend UI (web/mobile) to deliver end-to-end functionality.
 
 ## 📁 Directory Structure
 ```graphql
@@ -9,8 +11,8 @@ Extract product names from image uploads and retrieve structured, health-focused
 ├── app/
 │   ├── easyocr_model/             # EasyOCR pre-trained models (downloaded manually)
 │   ├── utility/
-│   │   ├── google_api.py          # Uses Google's SERP to fetch nutritional product info
-│   │   ├── llm.py                 # Interfaces with Groq LLM for structured JSON output
+│   │   ├── google_api.py          # Uses Google Gemini to fetch nutritional product info
+│   │   ├── llm.py                 # Interfaces with LLM for structured JSON output
 │   │   ├── nutrition_data.py      # Core logic to fetch and clean nutrition data
 │   │   └── ocr.py                 # Extracts product name from image using EasyOCR
 │   └── main.py                    # Flask API entry point
@@ -103,13 +105,13 @@ The already built [image in dockerhub](https://hub.docker.com/repository/docker/
 |------------------|--------------------------|
 | OCR              | EasyOCR                  |
 | Image Processing | Pillow, NumPy            |
-| LLM Interface    | Groq (LLaMA 3.1)         |
-| Search API       | Google SERP (unofficial) |
+| LLM Interface    | llama-3.3-70b-versatile  |
+| Search API       | gemini-2.5-flash-lite)   |
 | Web API          | Flask                    |
 | Containerization | Docker                   |
 
 
 ## 🤝 Contributing
-Contributions are welcome! Please fork the repository and submit a pull request for any enhancements or bug fixes. For more details and updates, visit the GitHub Repository.
+Contributions are welcome! Please fork the repository and submit a pull request for any enhancements or bug fixes. For more details and updates, visit the [GitHub Repository](https://github.com/tuhindutta/smart-nutrition-api).
 
 
