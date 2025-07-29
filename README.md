@@ -1,7 +1,7 @@
 # 🧠 Smart Nutrition API
 
 ## 📌 Overview
-is an intelligent OCR and LLM-powered API that automates the extraction of nutritional data for branded, packaged food products using just an image. The system leverages Optical Character Recognition (OCR), web search, and Large Language Models (LLMs) to infer and structure health-related information in JSON format, helping health-conscious users understand what they consume and developers building nutrition-focused applications.
+It is an intelligent OCR and LLM-powered API that automates the extraction of nutritional data for branded, packaged food products using just an image. The system leverages Optical Character Recognition (OCR), web search, and Large Language Models (LLMs) to infer and structure health-related information in JSON format, helping health-conscious users understand what they consume and developers building nutrition-focused applications.
 <br>
 This project is designed purely as an API layer and can be seamlessly integrated into any custom frontend UI (web/mobile) to deliver end-to-end functionality.
 
