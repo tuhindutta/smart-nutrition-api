@@ -107,7 +107,7 @@ The already built [image in dockerhub](https://hub.docker.com/repository/docker/
 | OCR              | EasyOCR                  |
 | Image Processing | Pillow, NumPy            |
 | LLM Interface    | llama-3.3-70b-versatile  |
-| Search API       | gemini-2.5-flash-lite)   |
+| Search API       | gemini-2.5-flash-lite    |
 | Web API          | Flask                    |
 | Containerization | Docker                   |
 
