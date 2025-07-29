@@ -93,12 +93,12 @@ python app/main.py
 docker build -t nutrition-api .
 
 # Run the container
-docker run -p 5000:5000 \
+docker run -p 8000:8000 \
   -e GOOGLE_API_KEY=your_key \
   -e GROQ_API_KEY=your_key \
   nutrition-api
 ```
-The already built [image in dockerhub](https://hub.docker.com/repository/docker/tkdutta/smart-nutrition-api/general) can also be used instead.
+The already built [image in dockerhub](https://hub.docker.com/repository/docker/tkdutta/smart-nutrition-api/general) can also be used instead, using the commands/steps mentioned in the dockerhub repository.
 
 ## 🛠️ Tech Stack
 
