@@ -101,6 +101,7 @@ docker run -p 5000:5000 \
 The already built [image in dockerhub](https://hub.docker.com/repository/docker/tkdutta/smart-nutrition-api/general) can also be used instead.
 
 ## 🛠️ Tech Stack
+
 | Component        | Tool/Service             |
 |------------------|--------------------------|
 | OCR              | EasyOCR                  |
