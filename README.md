@@ -77,14 +77,15 @@ Purpose: Get nutritional information for a given product name.
    
 ### ⚙️ Installation
 ```bash
-git clone https://github.com/yourusername/nutrition-extractor.git
-cd nutrition-extractor
+git clone https://github.com/tuhindutta/smart-nutrition-api
+cd smart-nutrition-api
 
 # Install dependencies
 pip install -r requirements.txt
 
 # Run the API
-python app/main.py
+cd app
+python main.py
 ```
 
 ### 🐳 Docker Support (Optional)
