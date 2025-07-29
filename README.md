@@ -72,8 +72,8 @@ Purpose: Get nutritional information for a given product name.
   - Python 3.9+
   - EasyOCR model pre-downloaded to ./easyocr_model/
   - .env file or environment variables:
-      - GOOGLE_API_KEY ([Get API](https://aistudio.google.com/apikey))
-      - GROQ_API_KEY ([Get API](https://console.groq.com/keys))
+      - `GOOGLE_API_KEY` ([Get API](https://aistudio.google.com/apikey))
+      - `GROQ_API_KEY` ([Get API](https://console.groq.com/keys))
    
 ### ⚙️ Installation
 ```bash
